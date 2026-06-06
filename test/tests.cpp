@@ -1,6 +1,7 @@
 // Copyright 2025 UNN-CS Team
 
 #include "circle.h"
+#include "tasks.h"
 
 #include <gtest/gtest.h>
 #include <cmath>
@@ -62,7 +63,7 @@ TEST(TaskTest, EarthGapPositive) {
 
 TEST(TaskTest, EarthGapSmall) {
   double gap = earthGapAfterRopeExtension(6378.1, 1.0);
-  EXPECT_NEAR(gap, 1.0 / (2 * M_PI), 1e-6);
+  EXPECT_NEAR(gap, 1.0 / (2 * M_PI), EPS);
 }
 
 TEST(TaskTest, PoolCostPositive) {
