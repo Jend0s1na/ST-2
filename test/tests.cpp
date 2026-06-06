@@ -3,8 +3,8 @@
 #include "circle.h"
 #include "tasks.h"
 
-#include <cmath>
 #include <cstdint>
+#include <cmath>
 #include <gtest/gtest.h>
 
 static constexpr double EPS = 1e-6;
