@@ -1,7 +1,10 @@
+// Copyright 2025 UNN-CS
+
 #ifndef INCLUDE_TASKS_H_
 #define INCLUDE_TASKS_H_
 
-double earthGapAfterRopeExtension(double earthRadiusKm, double addedLengthMeters);
+double earthGapAfterRopeExtension(double earthRadiusKm,
+                                   double addedLengthMeters);
 
 double poolProjectCost();
 
