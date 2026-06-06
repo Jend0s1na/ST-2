@@ -3,7 +3,6 @@
 #define INCLUDE_CIRCLE_H_
 #include <cstdint>
 
-
 class Circle {
 private:
     double radius{};

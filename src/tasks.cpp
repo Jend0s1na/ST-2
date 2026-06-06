@@ -8,7 +8,6 @@
 
 static constexpr double PI = 3.14159265358979323846;
 
-
 double earthGapAfterRopeExtension(double earthRadiusKm, double addedLengthMeters) {
     double r = earthRadiusKm * 1000.0;
 
@@ -21,7 +20,6 @@ double earthGapAfterRopeExtension(double earthRadiusKm, double addedLengthMeters
 
     return newR - r;
 }
-
 
 double poolProjectCost() {
     double poolRadius = 3.0;

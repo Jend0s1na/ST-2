@@ -82,7 +82,6 @@ TEST(CircleConsistency, RadiusFromAreaBackCheck) {
     EXPECT_NEAR(c.getArea(), M_PI * r * r, EPS);
 }
 
-
 TEST(CircleExtra1, CheckFerenceFormula) {
     Circle c(5);
     EXPECT_NEAR(c.getFerence(), 2 * M_PI * 5, EPS);
