@@ -1,11 +1,9 @@
 // Copyright 2025 UNN-CS Team
 
+#include <gtest/gtest.h>
+#include <cmath>
 #include "circle.h"
 #include "tasks.h"
-
-#include <cstdint>
-#include <cmath>
-#include <gtest/gtest.h>
 
 static constexpr double EPS = 1e-6;
 

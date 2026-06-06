@@ -1,9 +1,8 @@
 // Copyright 2025 UNN-CS
 
-#include "circle.h"
-#include "tasks.h"
-
 #include <cmath>
+#include "tasks.h"
+#include "circle.h"
 
 double earthGapAfterRopeExtension(double earthRadiusKm,
                                    double addedLengthMeters) {
